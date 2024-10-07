@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario registro</title>
+    
+</head>
+
+<body><!--Nombre y apellidos-->
+        
+<form action="" method="get" id="formulario" name="formulario">
+<div>
+    <label for="nombre">Nombre:</label>
+    <input
+    type="text"
+    id="nombre"
+    name="nombre"
+    placeholder="Escribe tu nombre">
+    <p id=mensajeNombre></p>
+</div>
+<div>
+    <label for="apellido">Apellido:</label>
+    <input
+    type="text"
+    id="apellido"
+    name="apellido"
+    placeholder="Escribe tu apellido">
+    <p id=mensajeApellido></p>
+</div>
+<div>
+    <label for="email">Email:</label>
+    <input
+    type="text"
+    id="email"
+    name="email"
+    placeholder="Escribe tu email">
+    <p id=mensajeEmail></p>
+</div>
+<div> 
+    <label for="Numero de telefono"> Telefono:</label>
+    <input type="telefono" id="telefono" placeholder="123456789"></div>
+
+    <div> 
+        <label for="start">Fecha de nacimiento:</label>
+        <input type="date" id="start" name="trip-start" value="fecha" min="1900-01-01" max="2024-01-31" />
+    </div>
+    <section>
+
+        <!--<p> seleccione género </p>-->
+        <div>
+            <p><strong>Selecione Genero</strong></p>
+
+            <label for="hombre">Hombre</label>
+            <input type="radio" id="hombre" name="genero" value="hombre">
+
+
+            <label for="mujer">Mujer</label>
+            <input type="radio" id="mujer" name="genero" value="mujer">
+        </div><!--Generos-->
+        <div>
+            <p><strong>¿Se siente parte del club?</strong></p>
+            <input type="radio" id="Si" name="afirmacion" value="SI">
+            <label for="SI">SI</label>
+            <input type="radio" id="NO" name="afirmacion" value="NO">
+            <label for="NO">NO</label>
+        </div><!--Se siente parte del club-->
+    
+    </section>
+
+        <br>
+    <ul id="mensaje"></ul>
+    <button type="submit">Enviar</button>
+</form>
+
+    <!--<div>
+        <section>
+            <div>
+                <h2>Registrarse en el club</h2>
+            </div>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Escribe aqui tu nombre">
+            <br>
+            <div>
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="Apellido" name="Apellidos" placeholder="Escribe aqui tu Apellido">
+                <input type="Segundo apellido" placeholder="Segundo apellido">
+                <label for=""></label> 
+        </section>
+    </div>
+
+    <label for="start">Fecha de nacimiento:</label>
+    <input type="date" id="start" name="trip-start" value="fecha" min="1999-01-01" max="2024-01-31" />
+     </div> -->
+    
+    
+        
+
+        <!--Seccion para enviar datos-->
+        <!--<div>
+            <p>Datos de contacto:</p>
+            <label for="Numero de telefono"> Telefono:</label>
+            <input type="tel" id="tel" placeholder="123456789">
+            <div>
+                <label for="email">Correo electronico:</label>
+                <input type="email" id="email" name="email" placeholder="ejemplo@debase.com">
+            </div>
+            <div>
+                <label for="suscribir">Suscribirse al boletin</label>
+                <input type="checkbox" id="suscribir" name="suscribir" value="si" required>
+            </div>
+        </div>-->
+        <!--Telefono, mail y subscripcion al boletin-->
+        <script src="js/main.js"></script>
+</body>
+
+</html>
